@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+    
+}
+.screen{
+    background-size: 468.32px 634.15px;
+    height: 581.15px;
+    margin-bottom: 12px;
+    margin-right: -10px;
+}
+
+.photoone{
+    position: relative;
+    
+}
+
+.phototwo{
+    position: absolute;
+    left: 775px;
+    top: 58px;
+}
+
+#insta{
+    width: 190px;
+    height: 74px;
+    background-size: 176px 186px;
+    display: inline-block;
+}
+
+.photo3{
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.insta-forgot{
+    background: #ffffff;
+    width: 22rem;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1rem solid rgba(219, 219, 219);
+    padding: 1.5rem 4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.vhod1{
+    margin: 0 40px 6px;
+}
+.vhod2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    border:  1px solid rgb(219, 219, 219);
+    background-color: #fafafa;
+    color: rgb(38, 38, 38);
+    height: 36px;
+    cursor:text;
+    width: 270px;
+    padding: 9px 0 12px 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+
+.llog{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 40px 16px;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #4bb4f8;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+}
+
+.submit{
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    height: 33px;
+    width: 270px;
+    padding-top: 8px;
+}
+
+.line_or_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8e8e8e;
+    font-weight: 600;
+    position: relative;
+    font-size: 13px;
+    margin-left: 39px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.or{
+    color:gray;
+    margin-top:-9px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.line1{
+    background-color: gray;
+    height: 1px;
+    width: 120px;
+    margin-bottom: 13px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 0;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
+.fab{
+    color:rgb(0, 55 , 107);
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.facebook span{
+    color:rgb(0, 55 , 107);
+    font-weight: 600;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.forgot{
+    cursor: pointer;
+    color: #385185;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding-left: 124px;
+}
+
+.no_acc{
+    border: 1px solid rgb(195, 195, 195); 
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 5px;
+    width: 22rem;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.dont{
+    display: flex;
+    gap: 10px;
+    color: rgb(38, 38, 38);
+    font-size: 13px;
+    margin: 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22rem;
+    margin-top: 1.5rem;
+}
+
+.get_app{
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.get_it_grom{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo_goog{
+    height: 45px;
+    margin-right: 0.2rem;
+    padding-bottom: 1px;
+}
+
+.main_body{
+    display: flex;
+}
+
+#logo_mic{
+    height: 43px;
+    padding-bottom: 1px;
+}
+
+.end{
+    height: 25vh;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+
+.name{
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    text-decoration:  none;
+}

@@ -1,0 +1,167 @@
+
+* {
+    Box-Sizing: Border-Box;
+    Margin: 0;
+    Padding: 0;
+}
+
+Body{
+    Font-Family: "Segoe UI", Tahoma, Geneva, Verdana, Sans-Serif;
+    Background: #Fff;
+    Color: #000;
+    Font-Size: 15px;
+    Line-Height: 1.5;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #0067b8;
+    font-size: 16px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+a{
+    Color: #262626;
+    Text-Decoration: None;
+}
+
+ul{
+    List-Style: None;
+}
+
+.begin_left{
+    Display: Flex;
+    Align-Items: Center;
+    Height: 60px;
+    Padding: 20px 0;
+    Font-Size: 13px;
+}
+.minilogo{
+    margin-left: 80px;
+    margin-top: -10px;
+    width: 108px;
+}
+
+.left{
+margin-top: -5px;
+margin-left: 25px;
+}
+.left:hover{
+    Border-Bottom: 2px Solid #262626;
+}
+
+.miniman{
+    margin-left: 3px;
+    margin-top: -5px;
+}
+
+.lupa{
+    margin-top: -2px; 
+}
+
+.galochka{
+    margin-top: -8px;
+    margin-left: 6px;
+}
+
+.right{
+    margin-top: -5px;
+    margin-left: 630px;
+    margin-right: 2px;
+}
+
+.right:hover{
+    Border-Bottom: 2px Solid #ff0000;
+}
+
+.microsoft_logo{
+    width: 100%;
+    height: 100%;
+}
+
+.text_on_picture h1{
+  transform: translate(3em, -8.6em);
+  font-family: inherit;
+  font-weight: 630;
+  font-size: 37px;  
+}
+
+.text_on_picture p{
+transform: translate(7.5em, -20em);
+}
+
+.text1{
+    transform: translate(7.5em, -18em); 
+    Border-Bottom: 2px Solid #0067b8;
+    Background: #0067b8;
+    Display: Inline-Block;
+    Font-Weight: Bold;
+    Padding: 9px 13px;
+    Font-Size: 15px; 
+}
+.text1chel{
+   color: white;
+}
+
+.text6chel{
+    transform: translate(19em, -20em); 
+}
+
+.f_blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: -70px; 
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.first{
+    cursor: pointer;
+    width: 450px;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.f_blocks h2{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.f_blocks a{
+    Display: Inline-Block;
+    Padding-Top: 13px;
+    Color: #0067b8;
+    Text-Transform: Uppercase;
+    Font-Weight: Bold;
+}
+
+.f_blocks p{
+    margin-right: 20px;
+}
